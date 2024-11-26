@@ -4,6 +4,7 @@ on:
     types: [checks_requested]
   pull_request:
   push:
+    branches: ["master"]
 
 concurrency:
   group: ci-${{ github.ref }}-${{ github.workflow }}

@@ -2,6 +2,8 @@ name: Check Markdown links
 on:
   pull_request:
     paths: ["**.md"]
+  push:
+    branches: ["master"]
 
 concurrency:
   group: ci-${{ github.ref }}-${{ github.workflow }}
