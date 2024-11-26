@@ -38,11 +38,16 @@ contributing has been established:
    6. When the code is complete it can be marked `Ready for Review` and follow
       the PR readiness checklist.
 
+## Developer Certificate of Origin
+
+We require contributors to sign all the commits with an email address that matches the commit author.
+See [Readme → DCO](./README.md#developer-certificate-of-origin).
+
 ## Coding Guidelines
 
 We follow the Cosmos SDK [Coding Guidelines](https://github.com/cosmos/cosmos-sdk/blob/master/CODING_GUIDELINES.md). Specifically:
 
-- API & Design SHOULD be proposed and reviewed before the implementaion.
+- API & Design SHOULD be proposed and reviewed before the implementation.
 - Minimize code duplication
 - Define [Acceptance tests](https://github.com/cosmos/cosmos-sdk/blob/master/CODING_GUIDELINES.md#acceptance-tests) or while implementing new features.
   - Prefer use of acceptance test framework, like [gocuke](https://github.com/regen-network/gocuke/)
