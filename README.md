@@ -12,8 +12,19 @@ This repository contains shared resources about contribution and security polici
 
 The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project. See the [full text of the DCO](DCO.txt).
 
-**We require all contributors** to affirm [Developer Certificate of Origin](https://developercertificate.org/) (DCO) on Pull Requests. It requires all commit messages to contain the Signed-off-by line with an email address that matches the commit author. You can accomplish this by either:
+**We require all contributors** to affirm [Developer Certificate of Origin](https://developercertificate.org/) (DCO) on Pull Requests. It requires:
 
-- Set `commit.gpgsign = true` in your `.gitconfig`. The easiest way is to set it globally: `git config --global commit.gpgsign true`.
-- add `-S` option when running `git` command, eg: `git commit -S -m "YOUR_COMMIT_MESSAGE"`
-- [Adding signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) to your GitHub, for commits done through GitHub.
+
+1. all commit messages to contain the Signed-off-by line with an email address that matches the commit author: `Signed-off-by: Author Name <authoremail@example.com>`. You can also do this automatically by using the -s flag (i.e., `git commit -s`).
+    - To add your Signed-off-by line to every commit in your branch you can run
+    
+      ```
+      git rebase HEAD~<number of commits in your branch> --signoff
+      git push --force-with-lease
+      ```
+        
+2. Sign all your commits. You can accomplish this by:
+
+    - Set `commit.gpgsign = true` in your `.gitconfig`. The easiest way is to set it globally: `git config --global commit.gpgsign true`.
+    - add `-S` option when running `git` command, eg: `git commit -S -m "YOUR_COMMIT_MESSAGE"`
+    - [Adding signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) to your GitHub, for commits done through GitHub.
