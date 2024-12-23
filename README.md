@@ -7,6 +7,7 @@ This repository contains shared resources about contribution and security polici
 - [Contributor Code of Conduct](CODE_OF_CONDUCT.md)
 - [Contributing Guidelines](CONTRIBUTING.md)
 - [Security and Reporting](SECURITY.md)
+- [Best practices: Go](best-practices-go.md)
 
 ## Developer Certificate of Origin
 
