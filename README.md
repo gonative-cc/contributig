@@ -9,6 +9,7 @@ This repository contains shared resources about contribution and security polici
 - [Security and Reporting](SECURITY.md)
 - [How to comment your code](code-comments.md)
 - [Best practices: Go](best-practices-go.md)
+- [Best practices: Move](best-practices-move.md)
 
 ## Developer Certificate of Origin
 
