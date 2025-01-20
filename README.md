@@ -11,6 +11,11 @@ This repository contains shared resources about contribution and security polici
 - [Best practices: Go](best-practices-go.md)
 - [Best practices: Move](best-practices-move.md)
 
+## Network
+
+- [Native Network](https://github.com/gonative-cc/network-docs/): documentation about our blockchain network.
+- [GoNative](https://github.com/gonative-cc/gonative): blockchain node implementation.
+
 ## Developer Certificate of Origin
 
 The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project. See the [full text of the DCO](DCO.txt).
