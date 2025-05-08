@@ -6,3 +6,8 @@
 - Formatting:
   - indentation: 4 spaces
 - Follow [Sui Move conventsion](https://docs.sui.io/concepts/sui-move-concepts/conventions).
+
+dapp / web tools:
+
+- [typemove](https://github.com/sentioxyz/typemove) - generates TypeScript bindings for Move contracts.
+- [sui-client-gen](https://github.com/kunalabs-io/sui-client-gen) - a tool for generating TS SDKs for Sui Move smart contracts.
