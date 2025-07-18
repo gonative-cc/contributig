@@ -10,6 +10,7 @@ This repository contains shared resources about contribution and security polici
 - [How to comment your code](code-comments.md)
 - [Best practices: Go](best-practices-go.md)
 - [Best practices: Move](best-practices-move.md)
+- [Best practices: JS and TS](best-practices-js-ts.md)
 
 ## Network
 

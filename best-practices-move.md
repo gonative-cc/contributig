@@ -11,3 +11,6 @@ dapp / web tools:
 
 - [typemove](https://github.com/sentioxyz/typemove) - generates TypeScript bindings for Move contracts.
 - [sui-client-gen](https://github.com/kunalabs-io/sui-client-gen) - a tool for generating TS SDKs for Sui Move smart contracts.
+
+CMD toos:
+- [Sui Env reporter](https://github.com/vuvoth/sui-env-report)
