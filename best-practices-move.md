@@ -13,4 +13,5 @@ dapp / web tools:
 - [sui-client-gen](https://github.com/kunalabs-io/sui-client-gen) - a tool for generating TS SDKs for Sui Move smart contracts.
 
 CMD toos:
+- [Suiup](https://github.com/MystenLabs/suiup) - easy way to download latest releases.
 - [Sui Env reporter](https://github.com/vuvoth/sui-env-report)
